@@ -15,6 +15,10 @@
 		04A46B301D0E58F80001F0C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A46B2E1D0E58F80001F0C0 /* LaunchScreen.storyboard */; };
 		04A46B3B1D0E58F80001F0C0 /* AdjustTableViewCellDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A46B3A1D0E58F80001F0C0 /* AdjustTableViewCellDemoTests.m */; };
 		04A46B461D0E58F80001F0C0 /* AdjustTableViewCellDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A46B451D0E58F80001F0C0 /* AdjustTableViewCellDemoUITests.m */; };
+		04A46B571D0FB4AF0001F0C0 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A46B561D0FB4AF0001F0C0 /* data.json */; };
+		04A46B5B1D0FD8020001F0C0 /* TextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A46B591D0FD8020001F0C0 /* TextTableViewCell.m */; };
+		04A46B5C1D0FD8020001F0C0 /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A46B5A1D0FD8020001F0C0 /* TextTableViewCell.xib */; };
+		3F6ED58124BA7D2C1698BF86 /* libPods-AdjustTableViewCellDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665421F961A7E74309FBD592 /* libPods-AdjustTableViewCellDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		04A46B411D0E58F80001F0C0 /* AdjustTableViewCellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdjustTableViewCellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A46B451D0E58F80001F0C0 /* AdjustTableViewCellDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdjustTableViewCellDemoUITests.m; sourceTree = "<group>"; };
 		04A46B471D0E58F80001F0C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A46B561D0FB4AF0001F0C0 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		04A46B581D0FD8020001F0C0 /* TextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTableViewCell.h; sourceTree = "<group>"; };
+		04A46B591D0FD8020001F0C0 /* TextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextTableViewCell.m; sourceTree = "<group>"; };
+		04A46B5A1D0FD8020001F0C0 /* TextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
+		3F34C38AECFE96B80BD59F46 /* Pods-AdjustTableViewCellDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdjustTableViewCellDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdjustTableViewCellDemo/Pods-AdjustTableViewCellDemo.release.xcconfig"; sourceTree = "<group>"; };
+		665421F961A7E74309FBD592 /* libPods-AdjustTableViewCellDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdjustTableViewCellDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E3FB9AA65BA6CD49348BFA1 /* Pods-AdjustTableViewCellDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdjustTableViewCellDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdjustTableViewCellDemo/Pods-AdjustTableViewCellDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6ED58124BA7D2C1698BF86 /* libPods-AdjustTableViewCellDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +97,8 @@
 				04A46B391D0E58F80001F0C0 /* AdjustTableViewCellDemoTests */,
 				04A46B441D0E58F80001F0C0 /* AdjustTableViewCellDemoUITests */,
 				04A46B1E1D0E58F80001F0C0 /* Products */,
+				3421E8410F3CF52B358F2395 /* Pods */,
+				DAF962B981F74B315DB1BDC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +119,9 @@
 				04A46B241D0E58F80001F0C0 /* AppDelegate.m */,
 				04A46B261D0E58F80001F0C0 /* ViewController.h */,
 				04A46B271D0E58F80001F0C0 /* ViewController.m */,
+				04A46B581D0FD8020001F0C0 /* TextTableViewCell.h */,
+				04A46B591D0FD8020001F0C0 /* TextTableViewCell.m */,
+				04A46B5A1D0FD8020001F0C0 /* TextTableViewCell.xib */,
 				04A46B291D0E58F80001F0C0 /* Main.storyboard */,
 				04A46B2C1D0E58F80001F0C0 /* Assets.xcassets */,
 				04A46B2E1D0E58F80001F0C0 /* LaunchScreen.storyboard */,
@@ -117,6 +134,7 @@
 		04A46B201D0E58F80001F0C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04A46B561D0FB4AF0001F0C0 /* data.json */,
 				04A46B211D0E58F80001F0C0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +158,23 @@
 			path = AdjustTableViewCellDemoUITests;
 			sourceTree = "<group>";
 		};
+		3421E8410F3CF52B358F2395 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E3FB9AA65BA6CD49348BFA1 /* Pods-AdjustTableViewCellDemo.debug.xcconfig */,
+				3F34C38AECFE96B80BD59F46 /* Pods-AdjustTableViewCellDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAF962B981F74B315DB1BDC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				665421F961A7E74309FBD592 /* libPods-AdjustTableViewCellDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A46B4A1D0E58F80001F0C0 /* Build configuration list for PBXNativeTarget "AdjustTableViewCellDemo" */;
 			buildPhases = (
+				216E0F0BB023D64FA840E24F /* 📦 Check Pods Manifest.lock */,
 				04A46B191D0E58F80001F0C0 /* Sources */,
 				04A46B1A1D0E58F80001F0C0 /* Frameworks */,
 				04A46B1B1D0E58F80001F0C0 /* Resources */,
+				1DA7D6BA03535833B3ACAC21 /* 📦 Embed Pods Frameworks */,
+				65B6D4ADF10CB860DE8D9EFE /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,8 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A46B301D0E58F80001F0C0 /* LaunchScreen.storyboard in Resources */,
+				04A46B5C1D0FD8020001F0C0 /* TextTableViewCell.xib in Resources */,
 				04A46B2D1D0E58F80001F0C0 /* Assets.xcassets in Resources */,
 				04A46B2B1D0E58F80001F0C0 /* Main.storyboard in Resources */,
+				04A46B571D0FB4AF0001F0C0 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +305,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DA7D6BA03535833B3ACAC21 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdjustTableViewCellDemo/Pods-AdjustTableViewCellDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		216E0F0BB023D64FA840E24F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65B6D4ADF10CB860DE8D9EFE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdjustTableViewCellDemo/Pods-AdjustTableViewCellDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04A46B191D0E58F80001F0C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,6 +360,7 @@
 			files = (
 				04A46B281D0E58F80001F0C0 /* ViewController.m in Sources */,
 				04A46B251D0E58F80001F0C0 /* AppDelegate.m in Sources */,
+				04A46B5B1D0FD8020001F0C0 /* TextTableViewCell.m in Sources */,
 				04A46B221D0E58F80001F0C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,9 +498,11 @@
 		};
 		04A46B4B1D0E58F80001F0C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3FB9AA65BA6CD49348BFA1 /* Pods-AdjustTableViewCellDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AdjustTableViewCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yumengshi.AdjustTableViewCellDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,9 +511,11 @@
 		};
 		04A46B4C1D0E58F80001F0C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F34C38AECFE96B80BD59F46 /* Pods-AdjustTableViewCellDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AdjustTableViewCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yumengshi.AdjustTableViewCellDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +589,7 @@
 				04A46B4C1D0E58F80001F0C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A46B4D1D0E58F80001F0C0 /* Build configuration list for PBXNativeTarget "AdjustTableViewCellDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +598,7 @@
 				04A46B4F1D0E58F80001F0C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A46B501D0E58F80001F0C0 /* Build configuration list for PBXNativeTarget "AdjustTableViewCellDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +607,7 @@
 				04A46B521D0E58F80001F0C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -20,4 +20,12 @@
     // Configure the view for the selected state
 }
 
+- (CGSize)sizeThatFits:(CGSize)size {
+    CGFloat totalHeight = 0;
+    totalHeight += [self.textLab sizeThatFits:size].height;
+
+    totalHeight += 20; // margins
+    return CGSizeMake(size.width, totalHeight);
+}
+
 @end

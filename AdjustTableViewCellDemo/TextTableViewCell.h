@@ -10,4 +10,6 @@
 
 @interface TextTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *textLab;
+
 @end
